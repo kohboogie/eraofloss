@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 302.8 302.8">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke-dasharray: 0 0 0 55.87;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #231815;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 18.31px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" width="302.8" height="302.8"/>
+    </clipPath>
+  </defs>
+  <g id="_레이어_1-2" data-name="레이어 1">
+    <g class="cls-1">
+      <path class="cls-3" d="M205.85,282.85c43.28-17.95,75.78-56.65,85.09-103.7"/>
+      <path class="cls-3" d="M282.86,96.95c-17.95-43.28-56.65-75.79-103.7-85.09"/>
+      <path class="cls-3" d="M96.95,19.95C53.67,37.89,21.17,76.6,11.86,123.64"/>
+      <path class="cls-3" d="M19.95,205.85c17.95,43.28,56.65,75.79,103.7,85.09"/>
+      <path class="cls-4" d="M151.4,293.65h0M9.16,151.4h0M151.4,9.16h0M293.65,151.4h0"/>
+    </g>
+  </g>
+</svg>

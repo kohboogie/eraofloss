@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../assets/fonts/NotoSans-Regular.woff2") format("woff2"),
+    url("../../assets/fonts/NotoSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../assets/fonts/NotoSans-Medium.woff2") format("woff2"),
+    url("../../assets/fonts/NotoSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../../assets/fonts/NotoSans-Bold.woff2") format("woff2"),
+    url("../../assets/fonts/NotoSans-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: "Theinhardt Mono";
+  src: url("../../assets/fonts/Theinhardt-Mono-Regular.woff2") format("woff2"),
+    url("../../assets/fonts/Theinhardt-Mono-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: 400;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020-002F, U+003A-0040,
+    U+005B-0060, U+007B-007E, U+25A0-25FF, U+0080- U+00FF;
+}
+
+@font-face {
+  font-family: "Theinhardt Mono";
+  src: url("../../assets/fonts/Theinhardt-Mono-Italic.woff2") format("woff2"),
+    url("../../assets/fonts/Theinhardt-Mono-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020-002F, U+003A-0040,
+    U+0080- U+00FF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=swap');
+
+*{	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	font-family: "Arial Narrow","Noto Sans", sans-serif;
+}
+
+*{	margin: 0;
+	padding: 0;
+	word-break: keep-all;
+	font-family: "Arial Narrow","Noto Sans", sans-serif;
+	line-height: 1.5;
+	 box-sizing:border-box;
+}
+
+header{
+	display: block;
+    unicode-bidi: isolate;
+	background: url(logo.svg)
+	no-repeat ;
+	z-index: 5;
+	width: 100vw;
+	margin-top:3em;
+	margin-left:2em;
+	left: 30;
+	height: 10vh;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative; /* Relative positioning to contain absolute elements */
+}
+nav ul {
+	margin-top: 5px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: regular;
+}
+footer {
+    margin-top: 100px;
+     margin-bottom: 50px;
+	 margin-left: 30px;
+    padding: 0;
+    display: flex;
+}
+p{	
+	font-family: "Noto Sans", sans-serif;
+	font-size: 1.35em;
+	font-weight: 400;
+	line-height: 1.7;
+}
+p1{
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.6;
+
+}
+p2{
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 1.2em;
+	line-height: 1.6;
+
+}
+h2{
+	line-height: 1.6;;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    gap: 20px; 
+    padding: 20px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+.floating-svg {
+	transition: transform 7s ease-out ;
+    position: fixed;
+    z-index: 1000000;
+    top: 0;
+    left: 0;
+    width: 120px; 
+    height: 120px; 
+    mix-blend-mode: difference;
+}
+.container {
+    
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.description p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.description p1 {
+    display: block;
+    font-size: 1.4em;
+}
